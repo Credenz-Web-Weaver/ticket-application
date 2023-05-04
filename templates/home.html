@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block content %}
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <title>Ticket Show</title>
+    </head>
+    <body>
+        {% include 'navbar.html' %}
+        <h1 class="text-center">Ticket Show</h1>
+        <h2 class="text-center">Book tickets to all the latest shows in the city!</h2>
+        <br/>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <!-- Add the first button with a route -->
+                    <a href="{{ url_for('venue') }}" class="btn btn-primary btn-block">Venues</a>
+                </div>
+                <div class="col-6">
+                    <!-- Add the second button with a route -->
+                    <a href="{{ url_for('show') }}" class="btn btn-secondary btn-block">Shows</a>
+                </div>
+            </div>
+        </div>	
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+{% endblock %}
