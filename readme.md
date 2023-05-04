@@ -1,6 +1,4 @@
 # Ticket Show Application
-## AppDev 1 Project
-### 21f1004990 Harsh Umesh Bhat
 
 # Setup and Local Environment Run
 
