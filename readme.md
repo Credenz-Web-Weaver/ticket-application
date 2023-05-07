@@ -1,6 +1,6 @@
 # Ticket Show Application
 
-# Setup and Local Environment Run
+## Setup and Local Environment Run
 
 - Clone the project
 - Run `cd ticket_application`
@@ -9,8 +9,7 @@
 - Run `pip install -r "requirements.txt"`
 - Run `python main.py`  
 
-- `ticket_app_CRUD_Documentation.yaml` contains documentation of crud APIs implemented.
-- `21f1004990_AppDev1_Project_Report.pdf` contains project report for the project.
+## Description of various files and folders
 - `ticket_application` contains following directories
 - `instance` has the sqlite DB. 
 - `application` is where our application code is
@@ -18,4 +17,16 @@
 - `templates` - Default flask templates folder
 - `main.py` is the entry-point of the project.
 - `requirements.txt` contains required python libraries.
-- `ticket_app_CRUD_Documentation.yaml` contains documentation of crud APIs implemented.
+
+##  Current features of this application
+- A user can book tickets for shows.
+- Admin can add/remove shows/venues.
+- Aurhorization functionality
+
+## Improvements that can be made
+- Improved User Interface.
+- Better management of Admin Dashboard
+- Dynamic pricing for tickets
+- Improvements in business logic
+- Scheduled jobs to notify users about new shows/venues or send reminder messages
+- Anymore innovative suggestion is also accepted.
